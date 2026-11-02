@@ -1,0 +1,38 @@
+# Credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+secrets*
+.npmrc
+.pypirc
+# Hosting and editor settings
+.openai/
+.vercel/
+.wrangler/
+.dev.vars*
+.vscode/
+.idea/
+# Dependencies, generated files, logs and local data
+node_modules/
+.next/
+coverage/
+*.log
+*.db
+*.sqlite*
+*.sql
+backups/
+uploads/
+private/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
